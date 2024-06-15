@@ -1,0 +1,69 @@
+# Using the useMailprexForm Hook
+
+## Introduction
+
+The `useMailprexForm` hook makes it easy to integrate contact forms into your website using Mailprex. This hook manages the state of the form, handles changes to the fields, and sends the form information through the Mailprex API.
+
+To use the `useMailprexForm` hook, you must first install it from npm:
+
+```bash
+npm install mailprex
+```
+
+## Using the Hook
+
+### Import and Configuration
+
+First, import the hook into your component:
+
+```
+import useMailprexForm from 'mailprex';
+```
+
+Then, configure the hook in your component:
+
+```
+const { formData, handleChange, handleSubmit, response } = useMailprexForm({
+  url: "https://api.mailprex.com/sendEmail",
+  webName: "YourWebName",
+  emailDestiny: "destiny@example.com",
+});
+```
+
+### Form Implementation
+
+Implement the form in your component using the methods provided by the hook:
+
+```javascript
+return (
+  <form onSubmit={handleSubmit}>
+    <input
+      type="text"
+      name="fullname"
+      value={formData.fullname}
+      onChange={handleChange}
+      placeholder="Nombre Completo"
+    />
+    {/* Rest of the form */}
+    <button type="submit">Submit</button>
+  </form>
+);
+```
+
+### Response Management
+
+The hook also provides the status of the API response, which you can use to display success or error messages:
+
+```javascript
+if (response.loading) {
+  return <p>Enviando...</p>;
+}
+
+if (response.error) {
+  return <p>Error: {response.error.message}</p>;
+}
+
+if (response.data) {
+  return <p>Correo enviado exitosamente!</p>;
+}
+```

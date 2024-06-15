@@ -1,0 +1,32 @@
+# API Reference
+
+## Introduction
+
+The API Reference provides complete documentation on Mailprex API endpoints, including request and response parameters, and usage examples.
+
+## Endpoint: /sendEmail
+
+**Description:** Sends an email using the specified parameters.
+
+### Request Parameters:
+
+- **to:** (String) Email address of the recipient.
+- **subject:** (String) Subject of the email.
+- **body:** (String) Body of the email.
+
+### Request Example:
+
+```json
+{
+  "to": "destinatario@example.com",
+  "subject": "¡Hi, from Mailprex!",
+  "body": "This is a test email sent from Mailprex."
+}
+```
+
+```json
+{
+  "success": true,
+  "message": "Email sent successfully."
+}
+```

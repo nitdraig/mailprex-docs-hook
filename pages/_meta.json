@@ -1,0 +1,16 @@
+{
+  "index": "Mailprex Docs",
+  "introduction": "Introduction",
+  "integration": "Integration",
+  "mailprexhook": "useMailprexHook",
+  "examples": "Examples",
+  "guide": "Guide",
+  "mailprexAPI": "API",
+
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://agustin.top/#contact",
+    "newWindow": true
+  }
+}
