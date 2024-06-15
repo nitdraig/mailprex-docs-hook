@@ -5,14 +5,35 @@ const config: DocsThemeConfig = {
   head: (
     <>
       <title>Mailprex Docs | Mailprex</title>
+      <meta name="msapplication-TileColor" content="#fff" />
+      <meta name="theme-color" content="#fff" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta property="og:title" content="Mailprex Docs" />
+      <meta httpEquiv="Content-Language" content="en" />
       <meta
-        property="og:description"
+        name="description"
         content="Mailprex is a service designed to facilitate sending emails from web forms."
       />
-      <link rel="icon" href="./favicon.ico" type="image/ico" />
-      <link rel="icon" href="./src/assets/favicon.png" type="image/png" />
+      <meta
+        name="og:description"
+        content="Mailprex is a service designed to facilitate sending emails from web forms."
+      />
+      <meta name="twitter:card" content="summary_large_image" />
+      <meta name="twitter:image" content="" />
+      <meta name="twitter:site:domain" content="mailprex.top" />
+      <meta name="twitter:url" content="https://mailprex.top" />
+      <meta name="og:title" content="Nextra" />
+      <meta name="og:image" content="" />
+      <meta name="apple-mobile-web-app-title" content="Mailprex" />
+      <link
+        rel="icon"
+        href="https://res.cloudinary.com/draig/image/upload/v1718491557/mailprex/bpftnss9ux4tzdntczuc.ico"
+        type="image/ico+xml"
+      />
+      <link
+        rel="icon"
+        href="https://res.cloudinary.com/draig/image/upload/v1717633081/mailprex/iwzlpdbt3uclxt5mwll3.png"
+        type="image/png"
+      />
     </>
   ),
   banner: {
@@ -46,10 +67,13 @@ const config: DocsThemeConfig = {
     ),
   },
   project: {
-    link: "https://github.com/nitdraig/mailprex",
+    link: "https://github.com/nitdraig/usemailprex-hook",
+  },
+  toc: {
+    backToTop: true,
   },
 
-  docsRepositoryBase: "https://github.com/nitdraig/usemailprex",
+  docsRepositoryBase: "https://github.com/nitdraig/mailprex-docs",
   footer: {
     text: (
       <span>
