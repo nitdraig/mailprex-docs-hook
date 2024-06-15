@@ -6,7 +6,12 @@
   "examples": "Examples",
   "guide": "Guide",
   "mailprexAPI": "API",
-
+  "mailprex": {
+    "title": "Mailprex Web ↗",
+    "type": "page",
+    "href": "https://mailprex.top",
+    "newWindow": true
+  },
   "contact": {
     "title": "Contact ↗",
     "type": "page",
