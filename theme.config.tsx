@@ -4,13 +4,15 @@ import { DocsThemeConfig } from "nextra-theme-docs";
 const config: DocsThemeConfig = {
   head: (
     <>
-      <title>Mailprex Docs</title>
+      <title>Mailprex Docs | Mailprex</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
       <meta property="og:title" content="Mailprex Docs" />
       <meta
         property="og:description"
         content="Mailprex is a service designed to facilitate sending emails from web forms."
       />
+      <link rel="icon" href="./favicon.ico" type="image/ico" />
+      <link rel="icon" href="./src/assets/favicon.png" type="image/png" />
     </>
   ),
   banner: {
@@ -47,7 +49,7 @@ const config: DocsThemeConfig = {
     link: "https://github.com/nitdraig/mailprex",
   },
 
-  docsRepositoryBase: "https://github.com/nitdraig/mailprex-docs",
+  docsRepositoryBase: "https://github.com/nitdraig/usemailprex",
   footer: {
     text: (
       <span>
