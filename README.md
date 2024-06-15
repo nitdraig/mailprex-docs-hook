@@ -2,4 +2,4 @@
 
 ## Mailprex is an email sending platform designed to simplify the process of email communication from your website.
 
-To see about <a src="https://mailprex.top">Mailprex</a>
+To see about <a href="https://mailprex.top">Mailprex</a>

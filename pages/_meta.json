@@ -11,5 +11,11 @@
     "type": "page",
     "href": "https://mailprex.top",
     "newWindow": true
+  },
+  "contact": {
+    "title": "Contact ↗",
+    "type": "page",
+    "href": "https://agustin.top/#contact",
+    "newWindow": true
   }
 }
