@@ -26,12 +26,12 @@ const config: DocsThemeConfig = {
       <meta name="apple-mobile-web-app-title" content="Mailprex" />
       <link
         rel="icon"
-        href="https://res.cloudinary.com/draig/image/upload/v1718491557/mailprex/bpftnss9ux4tzdntczuc.ico"
+        href="https://res.cloudinary.com/draig/image/upload/v1718559486/mailprex/au9xhubjbmywl0lx9t4v.ico"
         type="image/ico+xml"
       />
       <link
         rel="icon"
-        href="https://res.cloudinary.com/draig/image/upload/v1717633081/mailprex/iwzlpdbt3uclxt5mwll3.png"
+        href="https://res.cloudinary.com/draig/image/upload/v1718559439/mailprex/vfec5ckpdm6ydwuamnne.png"
         type="image/png"
       />
     </>
@@ -49,7 +49,7 @@ const config: DocsThemeConfig = {
       <img
         className="rounded-full w-20  h-20"
         style={{ width: "3.2rem" }}
-        src="https://res.cloudinary.com/draig/image/upload/v1717633081/mailprex/iwzlpdbt3uclxt5mwll3.png"
+        src="https://res.cloudinary.com/draig/image/upload/v1718559439/mailprex/vfec5ckpdm6ydwuamnne.png"
         alt="Mailprex Logo"
       />
       <span style={{ marginLeft: ".4em", fontWeight: 800 }}>MailprexDocs</span>
