@@ -6,21 +6,29 @@ The API Reference provides complete documentation on Mailprex API endpoints, inc
 
 ## Endpoint: /sendEmail
 
+ The API URL: `"https://api.mailprex.top/email/send"`
 **Description:** Sends an email using the specified parameters.
 
 ### Request Parameters:
 
-- **to:** (String) Email address of the recipient.
-- **subject:** (String) Subject of the email.
-- **body:** (String) Body of the email.
+- **emailDestiny:** (String) Email address of the recipient.
+- **formData.fullName:**(String) Fullname of user form 
+- **formData.message:** (String) Message of the form.
+- **formData.email:** (String) email of user form
+- **webName:**(String) To identify the website where the form comes from
+- **formToken:** (String) required to enable form submission
 
 ### Request Example:
 
 ```json
 {
-  "to": "destinatario@example.com",
-  "subject": "¡Hi, from Mailprex!",
-  "body": "This is a test email sent from Mailprex."
+  "emailDestiny": "myEmail@example.com",
+  "webName": "My Portfolio",
+  "formToken": "yourPrivateTokenHere",
+  "formData.fullName":"Joe Doe",
+  "formData.message": "Hi, i want to contact you for a job!",
+  "formData.email":"jonDoe@example.com",
+
 }
 ```
 

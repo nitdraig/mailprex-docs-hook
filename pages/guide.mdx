@@ -22,6 +22,16 @@ The `sendEmail` endpoint is an API function that allows you to send emails using
   - Description: The content of the message to be sent via email
   - Required: Yes
 
+  - **webName:**
+  - Type: String
+  - Description: The name of the website from which the message is sent
+  - Required: Yes
+
+- **formToken:**
+  - Type: String
+  - Description: A unique token associated with a specific form created by the user in Mailprex
+  - Required: Yes
+
 - **phone:**
   - Type: String
   - Description: The phone number of the message sender (optional)
@@ -32,12 +42,3 @@ The `sendEmail` endpoint is an API function that allows you to send emails using
   - Description: The service related to the message (optional)
   - Required: No
 
-- **webName:**
-  - Type: String
-  - Description: The name of the website from which the message is sent
-  - Required: Yes
-
-- **formToken:**
-  - Type: String
-  - Description: A unique token associated with a specific form created by the user in Mailprex
-  - Required: Yes
