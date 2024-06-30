@@ -34,6 +34,19 @@ const config: DocsThemeConfig = {
         href="https://res.cloudinary.com/draig/image/upload/v1718559439/mailprex/vfec5ckpdm6ydwuamnne.png"
         type="image/png"
       />
+
+      <script
+        async
+        src={`https://www.googletagmanager.com/gtag/js?id=${process.env.NEXT_PUBLIC_GOOGLEANALYTIC}`}
+      ></script>
+      <script>
+        {`
+          window.dataLayer = window.dataLayer || [];
+          function gtag(){dataLayer.push(arguments);}
+          gtag('js', new Date());
+         gtag('config', ${process.env.NEXT_PUBLIC_GOOGLEANALYTIC});
+                  `}
+      </script>
     </>
   ),
   banner: {
