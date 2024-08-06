@@ -21,7 +21,7 @@
 </p>
 
 # useMailprex
-[![npm version](https://img.shields.io/npm/dm/usemailprex-react.svg?style=flat-square)](https://www.npmjs.com/package/usemailprex-react)
+[![npm version](https://img.shields.io/npm/v/usemailprex-react.svg?style=flat-square)](https://www.npmjs.com/package/usemailprex-react)
 [![npm downloads](https://img.shields.io/npm/dm/usemailprex-react.svg?style=flat-square)](https://www.npmjs.com/package/usemailprex-react)
 
 
