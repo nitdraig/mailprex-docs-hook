@@ -20,6 +20,9 @@
 </p>
 
 # useMailprex
+[![npm version](https://img.shields.io/npm/dm/usemailprex-react.svg?style=flat-square)](https://www.npmjs.com/package/usemailprex-react)
+[![npm downloads](https://img.shields.io/npm/dm/usemailprex-react.svg?style=flat-square)](https://www.npmjs.com/package/usemailprex-react)
+[![size](https://img.shields.io/bundlephobia/minzip/usemailprex-react.svg?style=flat)](https://bundlephobia.com/result?p=usemailprex-react)
 
 `useMailprex` is a React hook for handling contact forms and sending data to a server using fetch. This hook simplifies managing the form state and server response.
 
